@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    color: rgb(47, 126, 126);
+}
+h2{
+    color: red;
+    <!this is lower priority than the more specific code for h2 below>
+}
+h2{
+    color: green;
+    <!style that was written last takes precedence>
+}
+.big{
+    font-size: 60px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color: navy;
+}
+
+h1 span{
+    color: violet;
+}
